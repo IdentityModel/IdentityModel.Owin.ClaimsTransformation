@@ -1,3 +1,3 @@
-# Claims Transformation Middleware for Katana
+# Claims Transformation Middleware for OWIN/Katana
 
-Nuget: IdentityModel.ClaimsTransformation
+Nuget: IdentityModel.Owin.ClaimsTransformation
