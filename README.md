@@ -1,3 +1,3 @@
-# ClaimsTransformationMiddleware for Katana
+# Claims Transformation Middleware for Katana
 
 Nuget: IdentityModel.ClaimsTransformation
