@@ -22,17 +22,30 @@ using AppFunc = System.Func<System.Collections.Generic.IDictionary<string, objec
 
 namespace IdentityModel.Owin
 {
+    /// <summary>
+    /// The claims transformation middleware
+    /// </summary>
     public class ClaimsTransformationMiddleware
     {
         readonly ClaimsTransformationOptions _options;
         readonly AppFunc _next;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ClaimsTransformationMiddleware"/> class.
+        /// </summary>
+        /// <param name="next">The next middleware.</param>
+        /// <param name="options">The options.</param>
         public ClaimsTransformationMiddleware(AppFunc next, ClaimsTransformationOptions options)
         {
             _next = next;
             _options = options;
         }
 
+        /// <summary>
+        /// Invokes the middleware.
+        /// </summary>
+        /// <param name="env">The env.</param>
+        /// <returns></returns>
         public async Task Invoke(IDictionary<string, object> env)
         {
             var context = new OwinContext(env);

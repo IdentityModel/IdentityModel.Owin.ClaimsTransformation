@@ -21,8 +21,17 @@ using IdentityModel.Owin;
 
 namespace Owin
 {
+    /// <summary>
+    /// AppBuilder extensions for the claims transformation middleware
+    /// </summary>
     public static class ClaimsTransformationMiddlewareExtensions
     {
+        /// <summary>
+        /// Adds the claims transformation middleware to the OWIN pipeline.
+        /// </summary>
+        /// <param name="app">The application.</param>
+        /// <param name="transformation">The transformation function.</param>
+        /// <returns></returns>
         public static IAppBuilder UseClaimsTransformation(this IAppBuilder app, Func<ClaimsPrincipal, Task<ClaimsPrincipal>> transformation)
         {
             return app.UseClaimsTransformation(new ClaimsTransformationOptions
@@ -31,6 +40,13 @@ namespace Owin
                 });
         }
 
+        /// <summary>
+        /// Adds the claims transformation middleware to the OWIN pipeline.
+        /// </summary>
+        /// <param name="app">The application.</param>
+        /// <param name="options">The options.</param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException">options</exception>
         public static IAppBuilder UseClaimsTransformation(this IAppBuilder app, ClaimsTransformationOptions options)
         {
             if (options == null)

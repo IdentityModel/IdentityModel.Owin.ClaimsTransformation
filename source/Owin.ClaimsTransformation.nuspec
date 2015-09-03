@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>Dominick Baier, Brock Allen</authors>
+    <owners>Dominick Baier, Brock Allen</owners>
+    <copyright>Dominick Baier, Brock Allen 2015</copyright>
+
+    <projectUrl>https://github.com/identitymodel/owin.claimstransformation</projectUrl>
+    <iconUrl>https://identityserver.github.io/Documentation/assets/images/icons/IDmodel_icon128.png</iconUrl>
+    <licenseUrl>https://github.com/IdentityModel/Owin.ClaimsTransformation/blob/master/LICENSE</licenseUrl>
+
+    <dependencies>
+      <dependency id="Microsoft.Owin" version="3.0.0" />
+    </dependencies>
+
+    <id>IdentityModel.Owin.ClaimsTransformation</id>
+    <title>IdentityModel - Claims Transformation Middleware for OWIN/Katana</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <description>OWIN middleware for doing claims transformation in OWIN/Katana applications.</description>
+    <summary>OWIN middleware for doing claims transformation in OWIN/Katana applications.</summary>
+
+    <language>en-US</language>
+    <tags>Security OWIN Katana Identity Claims Authentication Authorization Access Control WebAPI Web API</tags>
+  </metadata>
+</package>

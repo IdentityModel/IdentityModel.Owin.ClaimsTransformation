@@ -20,8 +20,17 @@ using System.Threading.Tasks;
 
 namespace IdentityModel.Owin
 {
+    /// <summary>
+    /// Options class for claims transformation middleware
+    /// </summary>
     public class ClaimsTransformationOptions
     {
+        /// <summary>
+        /// Gets or sets the claims transformation function.
+        /// </summary>
+        /// <value>
+        /// The claims transformation function.
+        /// </value>
         public Func<ClaimsPrincipal, Task<ClaimsPrincipal>> ClaimsTransformation { get; set; }
     }
 }
