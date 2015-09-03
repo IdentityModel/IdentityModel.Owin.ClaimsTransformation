@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+ 
 using System;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace IdentityModel.Owin
+namespace IdentityModel.Owin.ClaimsTransformation
 {
     /// <summary>
     /// Options class for claims transformation middleware

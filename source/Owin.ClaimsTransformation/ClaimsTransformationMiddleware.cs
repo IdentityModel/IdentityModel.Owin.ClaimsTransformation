@@ -20,7 +20,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using AppFunc = System.Func<System.Collections.Generic.IDictionary<string, object>, System.Threading.Tasks.Task>;
 
-namespace IdentityModel.Owin
+namespace IdentityModel.Owin.ClaimsTransformation
 {
     /// <summary>
     /// The claims transformation middleware

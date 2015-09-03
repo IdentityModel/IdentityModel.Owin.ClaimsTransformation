@@ -7,8 +7,8 @@
     <ProjectGuid>{486FFAF0-6EC5-41C9-BF57-96070FED1F57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IdentityModel.ClaimsTransformation</RootNamespace>
-    <AssemblyName>IdentityModel.ClaimsTransformation</AssemblyName>
+    <RootNamespace>IdentityModel.Owin</RootNamespace>
+    <AssemblyName>IdentityModel.Owin.ClaimsTransformation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\build\IdentityModel.ClaimsTransformation.XML</DocumentationFile>
+    <DocumentationFile>..\..\build\IdentityModel.Owin.ClaimsTransformation.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\build\IdentityModel.ClaimsTransformation.XML</DocumentationFile>
+    <DocumentationFile>..\..\build\IdentityModel.Owin.ClaimsTransformation.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
