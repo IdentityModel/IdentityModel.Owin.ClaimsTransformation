@@ -18,8 +18,8 @@
     <title>IdentityModel - Claims Transformation Middleware for OWIN/Katana</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
-    <description>OWIN middleware for doing claims transformation in OWIN/Katana applications.</description>
-    <summary>OWIN middleware for doing claims transformation in OWIN/Katana applications.</summary>
+    <description>Middleware for doing claims transformation in OWIN/Katana applications.</description>
+    <summary>Middleware for doing claims transformation in OWIN/Katana applications.</summary>
 
     <language>en-US</language>
     <tags>Security OWIN Katana Identity Claims Authentication Authorization Access Control WebAPI Web API</tags>
